@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "26728872"))
 API_HASH = environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7567477886:AAGUFUc3u5aozbiCO7cTG-uw_5sSx0zE1rU")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1705634892').split()]
@@ -42,8 +42,8 @@ DB_NAME = environ.get("DB_NAME", "Noneweb")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "20")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1200")) # Time in Seconds
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002288135729"))
@@ -61,7 +61,7 @@ VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "primeurl.in") # shortlink domain without https://
 SHORTLINK_API = environ.get("SHORTLINK_API", "54b3c3604b9dfef1c127a9e999be1ec4f533dd7e") # shortlink api
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hekbeisbw/47") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
